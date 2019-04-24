@@ -4,9 +4,9 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 $(document).ready(function() {
 r=function(){dpi=window.devicePixelRatio;var a='data-src'; if($('.js-37').hasAttr('src')) { a='src'; } $('.js-37').attr(a, (dpi>1) ? 'images/logo-48.png' : 'images/logo-24.png');
-$('.js-70').attr('src', (dpi>1) ? 'images/3301-200.jpg' : 'images/3301-100.jpg');
+$('.js-70').attr('src', (dpi>1) ? 'images/3301-200-1.jpg' : 'images/3301-100.jpg');
 $('.js-71').attr('src', (dpi>1) ? 'images/20-200.jpg' : 'images/20-100.jpg');
-$('.js-72').attr('src', (dpi>1) ? 'images/3302-200.jpg' : 'images/3302-100.jpg');};
+$('.js-72').attr('src', (dpi>1) ? 'images/3302-200-1.jpg' : 'images/3302-100.jpg');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 initMenu($('#menu-29')[0]);
